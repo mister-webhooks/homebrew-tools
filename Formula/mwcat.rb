@@ -1,8 +1,8 @@
 class Mwcat < Formula
   desc "Mister Webhooks console consumer"
   homepage "https://github.com/mister-webhooks/mwcat"
-  url "https://github.com/mister-webhooks/mwcat/archive/refs/tags/v0.1.2-pre1.tar.gz"
-  sha256 "0eda98ae4ac3041e6ed8f606a21ec4dcca8af6113c2f1eb36bc68297b271f4c9"
+  url "https://github.com/mister-webhooks/mwcat/archive/refs/tags/v0.1.2-pre2.tar.gz"
+  sha256 "a6845c69a978140352c512d407b4c2e0408eade1896f221332613b39f75a9ff7"
   license "BSD-2-Clause"
 
   bottle do
