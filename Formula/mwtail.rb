@@ -1,8 +1,8 @@
-class Mwcat < Formula
+class Mwtail < Formula
   desc "Mister Webhooks console consumer"
-  homepage "https://github.com/mister-webhooks/mwcat"
-  url "https://github.com/mister-webhooks/mwcat/archive/refs/tags/v0.2.0-pre0.tar.gz"
-  sha256 "74c2321f41247cd7a34cd37b3239629c4f94277a4d6403449a9ad0630f8931d4"
+  homepage "https://github.com/mister-webhooks/mwtail"
+  url "https://github.com/mister-webhooks/mwtail/archive/refs/tags/v0.3.0-pre0.tar.gz"
+  sha256 "6d827f26401612816c189729f051a64606553de3daefc8bf3b2adbe9a17f86d0"
   license "BSD-2-Clause"
 
   bottle do
@@ -16,7 +16,7 @@ class Mwcat < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w"), "./mwcat"
+    system "go", "build", *std_go_args(ldflags: "-s -w"), "./mwtail"
   end
 
   test do
@@ -24,6 +24,6 @@ class Mwcat < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system bin/"program", "do", "something"`.
-    system bin/"mwcat", "-help"
+    system bin/"mwtail", "-help"
   end
 end
