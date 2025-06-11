@@ -6,11 +6,11 @@ class Mwcat < Formula
   license "BSD-2-Clause"
 
   bottle do
-    root_url "https://github.com/mister-webhooks/homebrew-tools/releases/download/mwcat-0.1.2-pre2"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "dc55e930d2ad38321ec4fff221cfbba3ca0ae2b1cb9ec29de8fbb8a6372f77cf"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "8e4f166d8aee77b97667ece27146a5d83b8026cbe0856ebe3284e57ac1da8d62"
-    sha256 cellar: :any_skip_relocation, ventura:       "94a6e372a78bfe0855201382791b9176c4c887836df90be8b5ba1f3adb6f9db5"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "261c9415088e30bc60f947184b37e234e66d6ee286a16e3a95824c812210b045"
+    root_url "https://github.com/mister-webhooks/homebrew-tools/releases/download/mwcat-0.2.0-pre0"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "9bea5184030e35b9a2e5519049531292d4664881210073ce97c17a1b191e989a"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "397a881658109998516c0905c443a136d6e7df73bcbad1804254a25aa9f8a1dd"
+    sha256 cellar: :any_skip_relocation, ventura:       "48d3c21e84fe9fc5e98124f70b14a6a552e681291bbe03b4b89ec719f0aa00d5"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "50cfdee6d06cdeee3477e5292eb9e13020db6f55cbb7f5f25917695edf900cfa"
   end
 
   depends_on "go" => :build
