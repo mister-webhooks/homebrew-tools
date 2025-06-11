@@ -1,8 +1,8 @@
 class Mwtail < Formula
   desc "Mister Webhooks console consumer"
   homepage "https://github.com/mister-webhooks/mwtail"
-  url "https://github.com/mister-webhooks/mwtail/archive/refs/tags/v0.3.0-pre0.tar.gz"
-  sha256 "6d827f26401612816c189729f051a64606553de3daefc8bf3b2adbe9a17f86d0"
+  url "https://github.com/mister-webhooks/mwtail/archive/refs/tags/v0.4.0-pre0.tar.gz"
+  sha256 "b918486de2da70c214d63c3fbc218909585bdaaa0b3539ca9ea6a0137e2a7b28"
   license "BSD-2-Clause"
 
   bottle do
